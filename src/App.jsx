@@ -2,7 +2,7 @@ import "./App.css";
 
 import React from "react";
 
-import Home from "./containers/Home/index";
+import Home from "@/containers/Home/index.jsx";
 
 function App() {
   return (
