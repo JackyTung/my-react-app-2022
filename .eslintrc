@@ -2,6 +2,7 @@
   "extends": ["react-app", "plugin:react/recommended"],
   "plugins": ["import", "simple-import-sort", "react", "react-hooks"],
   "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "simple-import-sort/imports": [
       2,
       {
